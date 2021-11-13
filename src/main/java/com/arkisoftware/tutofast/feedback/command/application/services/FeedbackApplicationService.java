@@ -1,5 +1,8 @@
 package com.arkisoftware.tutofast.feedback.command.application.services;
 
+import com.arkisoftware.tutofast.feedback.application.Notification;
+import com.arkisoftware.tutofast.feedback.application.Result;
+import com.arkisoftware.tutofast.feedback.application.ResultType;
 import com.arkisoftware.tutofast.feedback.command.application.dtos.request.EditFeedbackRequest;
 import com.arkisoftware.tutofast.feedback.command.application.dtos.request.RegisterFeedbackRequest;
 import com.arkisoftware.tutofast.feedback.command.application.dtos.response.EditFeebackResponse;
@@ -8,9 +11,6 @@ import com.arkisoftware.tutofast.feedback.command.application.validators.EditFee
 import com.arkisoftware.tutofast.feedback.command.application.validators.RegisterFeedbackValidator;
 import com.arkisoftware.tutofast.feedback.contracts.commands.EditFeedback;
 import com.arkisoftware.tutofast.feedback.contracts.commands.RegisterFeedback;
-import org.arkisoftware.tutofast.common.application.Notification;
-import org.arkisoftware.tutofast.common.application.Result;
-import org.arkisoftware.tutofast.common.application.ResultType;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.stereotype.Component;
 

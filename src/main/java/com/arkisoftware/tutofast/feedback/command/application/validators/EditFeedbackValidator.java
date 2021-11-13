@@ -1,8 +1,8 @@
 package com.arkisoftware.tutofast.feedback.command.application.validators;
 
+import com.arkisoftware.tutofast.feedback.application.Notification;
 import com.arkisoftware.tutofast.feedback.command.application.dtos.request.EditFeedbackRequest;
 import com.arkisoftware.tutofast.feedback.command.domain.Feedback;
-import org.arkisoftware.tutofast.common.application.Notification;
 import org.axonframework.messaging.unitofwork.DefaultUnitOfWork;
 import org.axonframework.messaging.unitofwork.UnitOfWork;
 import org.axonframework.modelling.command.AggregateNotFoundException;

@@ -1,9 +1,9 @@
 package com.arkisoftware.tutofast.feedback.query.api;
 
+import com.arkisoftware.tutofast.feedback.api.ApiController;
 import com.arkisoftware.tutofast.feedback.query.projections.*;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.arkisoftware.tutofast.common.api.ApiController;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

@@ -1,7 +1,7 @@
 package com.arkisoftware.tutofast.feedback.command.application.validators;
 
+import com.arkisoftware.tutofast.feedback.application.Notification;
 import com.arkisoftware.tutofast.feedback.command.application.dtos.request.RegisterFeedbackRequest;
-import org.arkisoftware.tutofast.common.application.Notification;
 import org.springframework.stereotype.Component;
 
 @Component
